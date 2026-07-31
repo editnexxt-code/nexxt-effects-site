@@ -32,10 +32,10 @@ function proof(arquivo, largura) {
 const map = {
   __NAVICON__: b64file('navicon.b64'),
   __HEROART__: b64file('hero2.b64'),
-  __PAINEL__:  b64file('painel.b64'),
+  __PAINELTOPO__: b64file('painel_topo.b64'),
   __PROOF1__:  proof('1-legenda.png', 1000),
   __PROOF2__:  proof('2-pote.png', 1000),
-  __PROOF3A__: proof('5-vinculador-painel.png', 760),
+  __PROOF3A__: proof('5-vinculador-painel.png', 420),
   __PROOF3B__: proof('4-vinculador-timeline.png', 1000),
 };
 
